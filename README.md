@@ -1,4 +1,4 @@
-# Atividade: 
+# comandos git: 
 crie uma branch com o nome: feature/projeto-senai
 
 crie um arquivo com o nome: ProjetoSenai
@@ -12,7 +12,7 @@ Junte todas as alterações da branch feature/projeto-senai na branch principal
 Apague a branch feature/projeto-senai
 
 21/02: 
-#criando uma branch.
-git checkout -b heranca
-->Apague "todos" os arquivos, deixe apenas README.
+#criando uma branch
+git checkout -b heranca // herança é o nome da branch
+->Apague "todos" os arquivos, deixe apenas README. // o apagar é deletar
 (...) 
