@@ -16,16 +16,14 @@ public class Motoboy extends Funcionario{
         this.placaDaMoto = placaDaMoto;
     }
 
+    public double obterSalarioFinal() {
+        return salarioBase;
+    }
+
     @Override
     public String toString() {
-        return "Motoboy{" +
-                "placaDaMoto='" + placaDaMoto + '\'' +
-                ", nome='" + nome + '\'' +
-                ", cpf=" + cpf +
-                ", dataNascimento='" + dataNascimento + '\'' +
-                ", salarioBase=" + salarioBase +
-                '}';
+        return super.toString() + 
+               "\nPlaca da Moto: " + placaDaMoto;
     }
 
 }
-

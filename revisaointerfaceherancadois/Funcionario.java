@@ -1,7 +1,6 @@
 package revisaointerfaceherancadois;
 
-public class Funcionario {
-    public abstract class Funcionario {
+public abstract class Funcionario implements SalarioFinal{
     protected String nome;
     protected double cpf;
     protected String dataNascimento;
@@ -48,8 +47,10 @@ public class Funcionario {
 
         @Override
         public String toString() {
-        return "Funcionario [nome=" + nome + ", cpf=" + cpf + ", dataNascimento=" + dataNascimento + ", salarioBase="
-            + salarioBase + "]";
+            return "Nome: " + nome + "\n" +
+                   "CPF: " + cpf + "\n" +
+                   "Data de Nascimento: " + dataNascimento + "\n" +
+                   "Salário Base: " + salarioBase;
         }
 
         //public abstract double getSalarioFinal(); VERIFCAR O PEDIDO FINAL
